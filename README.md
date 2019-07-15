@@ -260,6 +260,12 @@ Since `bootstrap` template tags and filters are no longer loaded, you'll also ne
 
 ## Change Log
 
+### 4.0.0
+
+* Drop support for Django 1.11, Django 2.0, Python 2.7, and Python 3.4
+* Add support for Django 2.1, 2.2 and Python 3.7
+* Remove references to detox and add tox --parallel
+
 ### 3.0.2
 
 * Update pinax-templates version requirement

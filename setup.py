@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-VERSION = "3.0.2"
+VERSION = "4.0.0"
 LONG_DESCRIPTION = """
 .. image:: http://pinaxproject.com/pinax-design/patches/pinax-announcements.svg
     :target: https://pypi.python.org/pypi/pinax-announcements/
@@ -53,13 +53,13 @@ Announcements have title and content, with options for filtering their display:
 Supported Django and Python Versions
 ------------------------------------
 
-+-----------------+-----+-----+-----+-----+
-| Django / Python | 2.7 | 3.4 | 3.5 | 3.6 |
-+=================+=====+=====+=====+=====+
-|  1.11           |  *  |  *  |  *  |  *  |
-+-----------------+-----+-----+-----+-----+
-|  2.0            |     |  *  |  *  |  *  |
-+-----------------+-----+-----+-----+-----+
++-----------------+-----+-----+-----+
+| Django / Python | 3.5 | 3.6 | 3.7 |
++=================+=====+=====+=====+
+|  2.1            |  *  |  *  |  *  |
++-----------------+-----+-----+-----+
+|  2.2            |  *  |  *  |  *  |
++-----------------+-----+-----+-----+
 """
 
 setup(
@@ -79,27 +79,24 @@ setup(
         "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
         "Framework :: Django",
-        "Framework :: Django :: 1.11",
-        "Framework :: Django :: 2.0",
+        "Framework :: Django :: 2.1",
+        "Framework :: Django :: 2.2",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 2",
-        "Programming Language :: Python :: 2.7",
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     install_requires=[
-        "django>=1.11",
+        "django>=2.1",
     ],
     tests_require=[
-        "django-test-plus>=1.0.22",
-        "pinax-templates>=1.0.4",
-        "mock>=2.0.0",
+        "django-test-plus>=1.2.1",
+        "pinax-templates>=2.0.2",
+        "mock>=3.0.5",
     ],
     test_suite="runtests.runtests",
     zip_safe=False
