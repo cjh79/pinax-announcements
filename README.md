@@ -63,10 +63,10 @@ Announcements have title and content, with options for filtering their display:
 
 #### Supported Django and Python versions
 
-Django \ Python | 2.7 | 3.4 | 3.5 | 3.6
---------------- | --- | --- | --- | ---
-1.11 |  *  |  *  |  *  |  *  
-2.0  |     |  *  |  *  |  *
+Django \ Python | 3.5 | 3.6 | 3.7
+--------------- | --- | --- | ---
+2.1 |  *  |  *  |  *  
+2.2  |  *  |  *  |  *
 
 
 ## Documentation
