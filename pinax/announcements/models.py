@@ -21,7 +21,7 @@ class Announcement(models.Model):
         (DISMISSAL_PERMANENT, _("Permanent Dismissal Allowed"))
     ]
 
-    title = models.CharField(_("title"), max_length=50)
+    title = models.CharField(_("title"), max_length=500)
     content = models.TextField(_("content"))
     creator = models.ForeignKey(
         settings.AUTH_USER_MODEL,
